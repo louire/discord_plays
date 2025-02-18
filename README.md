@@ -1,9 +1,8 @@
 # Discord Music Bot in Rust 🎵
 
 <div align="center">
-  <img src="./assets/rustyBot.png" alt="Rusty Bot Logo" width="200">
+  <img src="assets/rustyBot.png" alt="Rusty Bot Logo" width="200">
 </div>
-
 
 A simple yet functional Discord bot written in Rust that can play music from YouTube in voice channels. Built using the Serenity and Songbird libraries.
 
@@ -92,9 +91,40 @@ ffmpeg -version
 
 4. Review console logs for error messages
 
+## TODO List 📝
+
+Features and improvements we plan to add:
+
+### High Priority
+- [ ] Search functionality: Allow users to search songs by name instead of requiring the exact URL
+- [ ] Track selection: Show top 5 results when searching and let users choose
+- [ ] Queue system: Add ability to queue multiple songs
+- [ ] Skip command: Add ability to skip current track
+- [ ] Volume control: Add command to adjust volume during playback
+
+### Medium Priority
+- [ ] Playlist support: Allow playing entire YouTube playlists
+- [ ] Save favorites: Let users save their favorite songs
+- [ ] Song info display: Show current song title, duration, and progress
+- [ ] Error recovery: Auto-reconnect on disconnection
+- [ ] Permissions system: Add DJ role and admin commands
+
+
 ## Contributing 🤝
 
-Contributions are welcome! If you find a bug or have a suggestion, please open an issue or submit a pull request.
+Contributions are welcome! Here's how you can help:
+
+1. Pick an item from the TODO list
+2. Open an issue to discuss your implementation
+3. Fork the repository
+4. Create a new branch for your feature
+5. Submit a pull request
+
+Please ensure your code:
+- Follows the existing code style
+- Includes appropriate comments
+- Has been tested thoroughly
+- Updates the README if adding new commands
 
 ## License 📄
 
