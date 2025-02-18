@@ -1,0 +1,10 @@
+[package]
+name = "discord_plays"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.28", features = ["full"] }
+serenity = { version = "0.12.4", features = ["client", "standard_framework", "voice"] }
+songbird = { version = "0.4.0", features = ["yt_dlp"] }
+futures = "0.3"
